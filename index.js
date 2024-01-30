@@ -1,5 +1,6 @@
 const Discord = require('discord.js'); //import client from discord
 const keep_alive = require('./keep_alive.js')
+
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -16,7 +17,6 @@ client.on('message', msg => {
     }
     else {
         msg.reply(msg.content);
-        console.log(msg.content);
     }
 });
 
