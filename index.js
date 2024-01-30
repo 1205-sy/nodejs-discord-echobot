@@ -1,4 +1,5 @@
 const Discord = require('discord.js'); //import client from discord
+const keep_alive = rquire('./keep_alive.js')
 
 const client = new Discord.Client();
 
